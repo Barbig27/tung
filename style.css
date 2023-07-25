@@ -32,12 +32,15 @@ body {
     height: 150px;
     border-radius: 50%;
     margin-bottom: 20px;
+    animation: spin 0.05s linear infinite; /* Sử dụng animation keyframe để quay mãi mãi khi hover */
+
 }
 
 h1 {
     font-size: 36px;
     font-weight: bold;
     color : rgb(8, 49, 112);
+    
 }
 
 .description {
@@ -45,12 +48,14 @@ h1 {
     font-style: italic;
     color: rgb(22, 73, 151);
     margin-bottom: 20px;
+    
 }
 
 .bio {
     font-size: 18px;
     color : rgb(8, 49, 112);
     margin-bottom: 30px;
+    
 }
 
 .social-links {
@@ -71,6 +76,7 @@ h1 {
     align-items: center;
     box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.2);
     border-radius: 25px;
+    
 
     
 }
@@ -83,6 +89,7 @@ h1 {
     border-radius: 25px;
 
     transition: background-color 0.2s, transform 0.2s;
+    
     
     
 }
@@ -121,6 +128,7 @@ a {
     animation: fadeInUp 0.3s ease;
     max-width: 90vh;
     max-height: 80vh;
+    
   }
   
   .close {
